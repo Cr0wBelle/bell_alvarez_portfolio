@@ -87,7 +87,26 @@ font-size: 50px;
     grid-column: 2;
 }
 
-/*code for text hover*/
+/*code for bigger images*/
+
+.bigimg{
+    width: 100%;
+    height: auto;
+}
+
+.bigimg img{
+    max-width: 95%;
+    max-height: auto;
+}
+
+.bigiframe iframe{
+    max-width: 100%;
+}
+
+.text{
+    margin: 15px;
+    padding: 15px;
+}
 
 .body h1 {
     color: darkred;
@@ -99,26 +118,4 @@ font-size: 50px;
     width: auto;
 }
 
-/*test code*/
 
-.text{
-    position:relative;
-    background-color: antiquewhite;
-    max-width: 400px;
-    height: auto;
-    display: none;
-}
-
-.grid{
-    display: grid;
-}
-
-.layer1{
-    grid-column: 1;
-    grid-row: 1;
-}
-
-.layer2{
-    grid-column: 1;
-    grid-row: 1;
-}
