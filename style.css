@@ -72,9 +72,22 @@ font-size: 50px;
     padding: 15px;
 }
 
+/*code for img grid*/
 .grid{
-    display: inline-block;
+    display: grid;
 }
+
+.img1{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.img2{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+/*code for text hover*/
 
 .body h1 {
     color: darkred;
