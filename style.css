@@ -51,6 +51,38 @@ font-size: 50px;
     color: purple;
 }
 
+.nav .dropdown button{
+    border: none;
+    background-color: bisque;
+}
+
+.nav .dropdown button:hover{
+    background-color: antiquewhite;
+    color: purple;
+}
+
+.nav li .dropdown .dropdowncontent{
+    display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  max-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 10px;
+}
+
+
+.nav li .dropdown .dropdowncontent li {
+    display: block;
+    text-align: center;
+    padding-right: 25px;
+}
+
+
+.nav li .dropdown:hover .dropdowncontent{
+    display: block;
+}
+
 /*Body of my html pages */
 
 .body{
