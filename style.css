@@ -1,0 +1,111 @@
+body{
+    background-color: chartreuse;
+    margin: auto;
+}
+
+/*Header Stuff*/
+
+.header{
+    max-width: 950px;
+    max-height: auto;
+    background-color: aqua;
+    text-align: center;
+    margin: auto;
+}
+
+.title{
+font-size: 50px;
+}
+
+.header h1{
+    color: hotpink;
+    text-shadow: 3px 3px red;
+}
+
+.header img{
+    width: auto;
+    height: 30%;
+    display: inline-flex;
+}
+
+/*Nav Bar stuff*/
+
+.nav{
+    background-color: bisque;
+}
+
+.nav li{
+    list-style: none;
+    max-width: 150px;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: gray;
+}
+
+.nav li h1:hover {
+    background-color: antiquewhite;
+    color: purple;
+}
+
+/*Body of my html pages */
+
+.body{
+    max-width: 950px;
+    height: auto;
+    background-color: aquamarine;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px crimson;
+}
+
+
+/*image cropping and grid view*/
+
+.body img{
+    max-width: 300px;
+    height: auto;
+    padding: 15px;
+}
+
+.grid{
+    display: inline-block;
+}
+
+.body h1 {
+    color: darkred;
+    text-shadow: 2px 2px chartreuse;
+}
+
+.body .grid iframe{
+    max-height: 400px;
+    width: auto;
+}
+
+/*test code*/
+
+.text{
+    position:relative;
+    background-color: antiquewhite;
+    max-width: 400px;
+    height: auto;
+    display: none;
+}
+
+.grid{
+    display: grid;
+}
+
+.layer1{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.layer2{
+    grid-column: 1;
+    grid-row: 1;
+}
