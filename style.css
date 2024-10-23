@@ -97,17 +97,29 @@ font-size: 50px;
 
 /*homepage*/
 
-
-.homepage .conan{
-    position: relative;
-    left: 260px;
-    bottom: 75px;
+.homepage .me{
+    max-width: 100%;
+    grid-row: 1;
+    grid-column: 1;
 }
 
-.homepage .kaito{
-    position: relative;
-    right: 50%;
-    bottom: 120%;
+.homepage .text{
+    grid-column: 2;
+}
+
+.homepage{
+    display: grid;
+}
+
+
+
+.homepage h1 .conan{
+    max-width: 30%;
+    height: auto;
+}
+
+.homepage h1 .kaito{
+    max-width: 25%;
 }
 
 /*image cropping and grid view*/
